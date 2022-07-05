@@ -1,7 +1,8 @@
 <template>
-  <v-card width="800">
-    <h1>Hello World</h1>
-  </v-card>
+  <v-sheet min-height="600" rounded="lg">
+    <h1>ข้อมูลส่วนตัว</h1>
+    <v-divider class="my-2"></v-divider>
+  </v-sheet>
 </template>
 
 <script>

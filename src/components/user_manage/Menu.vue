@@ -1,5 +1,5 @@
 <template>
-  <v-card width="256" max-width="256" min-width="256">
+  <v-card width="256">
     <v-navigation-drawer permanent>
         <v-system-bar></v-system-bar>
         <v-list>

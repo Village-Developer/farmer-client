@@ -1,17 +1,19 @@
 <template>
-    <div>
-        <v-row>
-            <Navbar />
-        </v-row>
-        <v-row>
-            <v-col cols="4" class="ml-16 mt-10">
-                <Menu />
-            </v-col>
-            <v-col cols="auto" class="mt-10">
-                <Display />
-            </v-col>
-        </v-row>
-    </div>
+    <v-app>
+        <Navbar />
+        <v-main class="grey lighten-3">
+            <v-container>
+                <v-row>
+                    <v-col cols="2">
+                        <Menu />
+                    </v-col>
+                    <v-col>
+                        <Display />
+                    </v-col>
+                </v-row>
+            </v-container>
+        </v-main>
+    </v-app>
 </template>
 
 <script>
